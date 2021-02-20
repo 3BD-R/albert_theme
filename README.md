@@ -1,2 +1,3 @@
 # albertMe
-albert-theme
+albert-theme 
+installation

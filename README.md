@@ -1,7 +1,7 @@
 # albertMe
    light clear & flat [albert](https://github.com/albertlauncher)-theme 
  
- ![](https://github.com/3BD-R/albertMe/blob/main/albershot.png)
+ ![](https://github.com/3BD-R/albertMe/blob/main/albershot.png)![](https://github.com/3BD-R/albertMe/blob/main/albershotdark.png)
 
 **installation**
 

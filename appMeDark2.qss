@@ -1,0 +1,91 @@
+* {
+  border: none;
+  font-family:"DejaVu Sans";
+  font-weight: 200;
+	color : #fcfcfc;
+	background-color:#090909 /* #1a1a1a */;
+	
+}
+
+#frame {
+	padding:0px;
+	border-radius: 5px;
+	background-color: #080808 /*#222*/;
+	border: 1px solid #999 /*#543*/;
+
+  /* Workaround for Qt to get fixed size button*/
+	min-width:600px /* 640px */;
+	max-width:600px;
+}
+
+#inputLine {
+	font-size: 36px;
+	selection-color: #111;
+	selection-background-color: #fcfcfc;
+	background-color: transparent;
+	margin:-3 3 -3 3px /*-4px*/;
+}
+
+#settingsButton {
+	color: transparent/*#222*/;
+	background-color: transparent;
+  padding: 8px;
+
+  /* Workaround for Qt to get fixed size button*/
+	min-width:14px;
+	min-height:14px;
+	max-width:14px;
+	max-height:14px;
+}
+
+/********** ListViews ************/
+
+QListView {
+	selection-color: #f0f0f0;
+	border-radius: 5px;
+}
+
+QListView::item:selected {
+	background:#333 /* #323232 */;
+	border-radius: 2px;
+}
+
+QListView QScrollBar:vertical  {
+	width: 2px;
+	background: transparent;
+}
+
+QListView QScrollBar::handle:vertical  {
+	background: #e2e2e2;
+	min-height: 24px;
+}
+
+QListView QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QListView QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
+QListView QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+	border: 0px;
+	width: 0px;
+	height: 0px;
+	background: transparent;
+}
+
+/********** actionList **********/
+
+QListView#actionList {
+	font-size: 20px;
+}
+
+QListView#actionList::item{
+	height:28px;
+}
+
+/********** resultsList **********/
+
+QListView#resultsList {
+	icon-size: 30px;
+	font-size: 22px;
+}
+
+QListView#resultsList::item{
+	height:43px/*48px*/;
+}
